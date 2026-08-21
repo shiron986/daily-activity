@@ -3,8 +3,7 @@ name: Daily Activity
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 18 * * *"
-      timezone: "Asia/Kolkata"
+    - cron: "30 13 * * *"
 
 permissions:
   contents: write
